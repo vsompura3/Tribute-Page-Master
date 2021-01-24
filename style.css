@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+html{
+      font-size: 14px;
+      scroll-behavior: smooth;
+}
+
+body{
+      color: #000;
+      font-family: monospace,sans-serif;
+      background-color: mistyrose;
+}
+
+img{
+      max-width: 100%;
+}
+
+.banner{
+      min-height: 100vh;
+      background-image: url(./Images/1620623.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+}
+
+span{
+      display: block;
+      font-family:'Monoton', monospace;
+      color: #fff;
+      font-size: 7rem;
+      background: -webkit-linear-gradient(rgb(19, 9, 1), rgb(17, 0, 12));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: .25em;
+}
+
+span:last-child{
+      margin-left: 1em;
+}
+
+.title{
+      padding: 1em;
+      transform: skew(10deg);
+}
+
+section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 1em  2em;
+}
+
+.content{
+      width: 80%;      
+}
+
+.content h2{
+      text-align: center;
+      font-size: 2rem;
+      margin: 1em;
+}
+
+.timeline{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.item{
+      background-color: rgb(216, 203, 203);
+      margin: 1em;
+      padding: 1em;
+      flex: 2  1  40%;
+      font-size: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 3px 2px 203px -13px rgba(85, 39, 39, 0.212);
+-webkit-box-shadow: 3px 2px 203px -13px rgba(209, 185, 185, 0.65);
+-moz-box-shadow: 3px 2px 203px -13px rgba(230,212,212,0.65);
+}
+
+
+footer {
+      padding: 1em;
+      width: 100%;
+      text-align: center;
+}
+
+footer p{
+      font-size: 1.5rem;
+      border: .5px dashed #000;
+      display: inline-block;
+      margin: 0 auto;
+      padding: .5em;
+}
+
+footer a{
+      color: navy;
+}
